@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
-  
-
-  "homepage":"https://www.mayoramirez.com",
+  "type": "module",
+  "homepage": "https://www.mayoramirez.com",
   "scripts": {
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "flowbite-react": "^0.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "validator": "^13.11.0"
+  }
 }
